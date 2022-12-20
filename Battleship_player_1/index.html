@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <title>BattleShips!</title>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <br>
+        <div id="headerdiv">
+            <h3>Welcome to Battleship!!!</h3>
+        </div>
+        <div id="get_username">
+            <form method="GET" action="gameplay.html">
+                <label>Enter your username</label>
+                <input id="username" name="username" type="text" maxlength="50" placeholder="username">
+                <input type="submit">
+            </form>
+
+        </div>
+        
+        <div id="pictures">
+            <img src="assets/images/submarine.jpg" alt="submarine" >
+            <img src="assets/images/destroyer.jpg" alt="submarine"  >
+            <img src="assets/images/cruiser.jpg" alt="submarine" >
+            <img src="assets/images/battleship.jpg" alt="submarine" >
+        </div>
+
+        <div id="scoretable">
+            
+            <table id="scoreBoard" class="table-width"></table>
+        </div>
+        <script type="text/javascript"	src="assets/js/view.js"></script>
+        <script type="text/javascript"	src="assets/js/highscores.js"></script>
+    </body>
+</html>
+
+
